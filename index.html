@@ -3,45 +3,22 @@
   <head>
     <meta charset="UTF-8">
     <title>Portfolio Web</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
-  <style>
-    h1 {
-      border-radius: 15px;
-      width: 380px;
-      height: 40px;
-      margin: 15px;
-      background-color: white;
-      color: rgb(52, 38, 120); 
-      font-family:Arial, Helvetica, sans-serif ;
-      text-align: center;
-      }
-
-    body {
-      color: white; 
-      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        background: linear-gradient(0deg,rgb(174, 121, 97), rgb(52, 38, 120));
-      }
-
-    img {
-      border-radius:100px;
-    }
-
-     h4 {
-      font-style: normal;
-      }
-
-    #Unix { font-size: 15px;}
-
-  </style>
   <body>
-    <h1>Vítor Magalhães Alves</h1>
-    <img id="foto" src="Foto.png" alt="Foto Vítor" width="200px">
-    <br><br>
-    <h4>Idade: 27 anos <br> Nacionalidade: Brasileira <br> Estado: SP <br> Cidade: Jacareí<br>
-    </h4>
-    <br><br>
-    <ul><strong>Conhecimentos técnicos:</strong>
-      <li><a href="#Unix">Unix</a></li>
+    <div>
+      <h1>Vítor Magalhães Alves</h1>
+      <div class="image-container">
+        <img id="foto" src="Foto.png" alt="Foto Vítor" width="200px">
+        <h4 class="descricao">Olá, eu sou publicitário e estudante de desenvolvimento web Full Stack na Trybe.</h4>
+      </div>
+    </div>
+    <br>
+    <p>Idade: 27 anos <br> Nacionalidade: Brasileira <br> Estado: SP <br> Cidade: Jacareí<br></p>
+    <br>
+    <p>Conhecimentos técnicos:</p>
+      <ul>
+        <li><a href="#Unix">Unix</a></li>
         <li><a href="#Unix">Bash</a></li>
         <li><a href="#Unix">Git</a></li>
         <li><a href="#Unix"><strong>GitHub</strong></a></li>
@@ -51,7 +28,8 @@
         <li><a href="#Adobe">Illustrator</a></li>
         <li><a href="#Adobe">InDesign</a></li>
         <li><a href="#Office">Pacote Office - <em>(Word, PowerPoint, Excel)</em></a></li>
-        <br><br><br>
+      </ul>
+    <br><br><br>
     <h4>Links Direcionais</h4>
     <a href="#foto">Foto</a>
     <br>
