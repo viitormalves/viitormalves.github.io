@@ -4,7 +4,7 @@
 body {
   color: rgb(255, 255, 255); 
   font-family: Epilogue , sans-serif;
-  background: linear-gradient(0deg,rgba(181, 241, 255, 0.781), rgba(12, 106, 194, 0.856));
+  background: linear-gradient(0deg,rgba(84, 219, 250, 0.438), rgba(12, 106, 194, 0.856));
   padding-top: 0%;
   margin: 0%;
 }
@@ -114,7 +114,7 @@ a {
   padding: 10px;
   padding-left: 15px;
   padding-right: 15px;
-  /* background-color: rgba(12, 106, 194, 0.801); */
+  background-color: rgba(12, 106, 194, 0.801);
   border-radius: 10px;
   text-decoration: none;
   color: white;
