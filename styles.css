@@ -4,7 +4,7 @@
 body {
   color: rgb(255, 255, 255); 
   font-family: Epilogue , sans-serif;
-  background: linear-gradient(0deg,rgba(84, 219, 250, 0.438), rgba(12, 106, 194, 0.856));
+  background: linear-gradient(0deg,rgba(84, 219, 250, 0.438), rgba(7, 88, 163, 0.856));
   padding-top: 0%;
   margin: 0%;
 }
@@ -13,17 +13,15 @@ header {
   margin-left: auto;
   margin-right: auto;
   display: flex;
-  /* margin-top: 3%; */
   justify-content: space-between;
   width: 1000px;
 }
 
 footer {
-  background-color: rgba(12, 106, 194, 0.973);
+  background-color: rgb(12, 106, 194);
   bottom: 0;
   position: fixed;
   width: 100%;
-  /* height: 70px; */
   text-align: center;
 }
 
@@ -59,10 +57,10 @@ ul {
 
 .description {
   background-color: rgba(12, 106, 194, 0.801);
+  margin-top: 0px;
   text-align: start;
   border-radius: 10px;
   padding-left: 20px;
-  margin-top: 50px;
   width: 800px;
 }
 
@@ -80,7 +78,6 @@ ul {
   background-color: rgba(12, 106, 194, 0.801);
   text-align: center;
   border-radius: 10px;
-  /* padding-left: 40px; */
   width: 530px;
 }
 
@@ -126,14 +123,12 @@ h4 {
 }
 
 .menu-container {
-  /* position: fixed; */
   width: 100%;
 }
 
 .mini-container {
   margin-left: auto;
   margin-right: auto;
-  /* background-color: rgba(12, 106, 194, 0.973); */
   border-radius: (0, 0, 15px, 15px);
   width: 400px;
   text-align: center;
@@ -149,10 +144,12 @@ h4 {
 #plataformas {
   color: rgb(255, 255, 255);
   text-align: center;
-  /* margin-top: 0%; */
 }
-  #Unix { font-size: 15px;}
 
-  /* ul li:nth-child(odd) {
-    background-color: aqua;
-  } */
+.conhecimento-container {
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+}
